@@ -1,24 +1,28 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Box, Typography } from '@material-ui/core';
+import DishForm from './components/DishForm';
+import Response from './components/Response';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Box
+        component="header"
+        display="flex"
+        justifyContent="center"
+        paddingTop="2rem"
+      >
+        <Typography variant="h3">Submit your dish</Typography>
+      </Box>
+
+      <Box
+        display="flex"
+        justifyContent="center"
+        width="100%"
+        paddingTop="2rem"
+      >
+        <DishForm />
+      </Box>
+      <Response />
     </div>
   );
 }
