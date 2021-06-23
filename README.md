@@ -20,7 +20,7 @@ The app uses typescript, react, redux and chakra ui.
 1. **Clone the repository**
 
    ```
-   git clone https://github.com/dev-szymon/seat-picker-app.git
+   git clone https://github.com/dev-szymon/dish-form.git
    ```
 
 2. **Install dependencies**

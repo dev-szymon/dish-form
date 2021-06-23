@@ -57,7 +57,9 @@ export const submitDish = async (values: FormValues) => {
 
   const data: APIResponse = await response.json();
 
-  dispatch(reset('dish-form'));
+  if (response.ok) {
+    dispatch(reset('dish-form'));
+  }
   return dispatch({
     type: 'API_DATA',
     data: data,
