@@ -1,6 +1,6 @@
-This is a simple example project that allows you to reserve seats in the cinema or theatre.
+This is a simple example project that allows you to create a dish. The form contians conditional fields that render depending on dish type.
 
-The app uses typescript, react, redux and chakra ui.
+The app uses typescript, react, redux, redux form and material UI.
 
 ## What’s In This Document
 
